@@ -1,10 +1,10 @@
-1. Creation-
+uy5r1. Creation-
 
 Create table Emp_25( 
 Emp_Name varchar(50), Emp_Id varchar(50), Phone_No int, Birth_Date varchar(50), Salary int, Designation varchar(50), Emp_City varchar(50), Emp_Country varchar(50), Father_Name varchar(50));
 
 
-2. Insertion-
+qs2. Insertion-
 
 Insert into Emp_25 Values('Puneet',1,9564522331,'25-Feb-2002',50000,'Manager','Ludhiana','India','Zorawar Fateh Singh');
 Insert into Emp_25 Values('Param',2,9888845451,'11-Mar-2002',40000,'Manufacturer','Raikot','India','Surjit Singh');
