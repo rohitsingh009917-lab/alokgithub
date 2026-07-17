@@ -1,0 +1,34 @@
+1. Creation-
+
+Create table Emp_25( 
+Emp_Name varchar(50), Emp_Id varchar(50), Phone_No int, Birth_Date varchar(50), Salary int, Designation varchar(50), Emp_City varchar(50), Emp_Country varchar(50), Father_Name varchar(50));
+
+
+2. Insertion-
+
+Insert into Emp_25 Values('Puneet',1,9564522331,'25-Feb-2002',50000,'Manager','Ludhiana','India','Zorawar Fateh Singh');
+Insert into Emp_25 Values('Param',2,9888845451,'11-Mar-2002',40000,'Manufacturer','Raikot','India','Surjit Singh');
+Insert into Emp_25 Values('Pardeep',3,8767899001,'10-Dec-2003',45000,'Supplier','Jalandhar','India','Mandeep Singh');
+Insert into Emp_25 Values('Nitesh',4,8907800031,'24-Jun-2002',38000,'Supplier','Delhi','India','Jagrit Singh');
+Insert into Emp_25 Values('Nitin',5,8888034341,'2-Oct-2002',45000,'Manufacturer','Patiala','India','Mukesh Kumar');
+
+
+3. Selection-
+
+Select*from Emp_25;
+
+
+4. NOT Operator-
+
+Select Emp_Name from Emp_25 WHERE NOT Emp_Name='Pardeep'; 
+
+
+5. AND Operator-
+
+Select*from Emp_25 WHERE Emp_Name='Pardeep' AND Emp_City='Delhi'; 
+
+
+
+6. 
+
+
