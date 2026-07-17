@@ -1,0 +1,15 @@
+create table adminridham
+(name varchar(20), RollNo number(10), FatherName varchar(20),MotherName varchar(20), citizenship varchar(20), contact number(10), Address varchar(40), age number(3), gender varchar(6))
+
+
+insert into adminridham
+values('Ridhamjeet kaur', 2115182, 'S. Gurmukh Singh', 'Kanwaljeet kaur', 'Indian','7524476846','abc road', 20, 'Female')
+
+select * from adminridham
+
+insert all
+into adminridham values('Preet kaur', 2115283, 'S. Gurjeet Singh', 'Tajinder kaur', 'Indian',7524418346,'afgd road', 19, 'Female')
+into adminridham values('Harpreet kaur', 2112253, 'S. Gurmeet Singh', 'Inderjeet kaur', 'Indian',752276546,'hssdgd road', 18, 'Female')
+select * from adminridham
+
+delete from adminridham where name ='Harpreet kaur';
